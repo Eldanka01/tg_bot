@@ -5,7 +5,7 @@ from telebot import types
 from telebot.types import Message
 
 from tasks.models import Task
-bot = telebot.TeleBot('6849022542:AAHdr5PuAzzEuuNfoG09EoBNbXCB4rir6gk')
+bot = telebot.TeleBot('6861465172:AAElWl69zrBbFfmu7XfKPOHMKESS-08K5zk')
 
 @bot.message_handler(commands=['start'])
 def start(message):
